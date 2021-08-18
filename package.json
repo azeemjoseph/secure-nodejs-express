@@ -1,0 +1,34 @@
+{
+  "name": "node-secure-app",
+  "version": "1.0.0",
+  "description": "secure node js application build using express, express-jwt-jsks-rsa , to make end points secure and run in load balancing mode with nginx",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "jwks-rsa": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azeemjoseph/secure-nodejs-express.git"
+  },
+  "keywords": [
+    "secure",
+    "nodejs",
+    "express",
+    "docker",
+    "container"
+  ],
+  "author": "Azeem Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azeemjoseph/secure-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/azeemjoseph/secure-nodejs-express#readme"
+}
