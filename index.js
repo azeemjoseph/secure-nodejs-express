@@ -12,8 +12,8 @@ app.use(cors());
 // app.use(auth0);
 // defining contacts array
 const contacts = [
-  { name: 'Azeem jsoseph', phone: '+0345123456' },
-  { name: 'Sehrish Mir', phone: '+03331234568' },
+  { name: 'Azeem jsoseph', phone: '+123' },
+  { name: 'Sehrish Mir', phone: '+123' },
 ];
 
 // creating endpoints 

@@ -6,9 +6,9 @@ module.exports = jwt({
         cache: true,
         rateLimit: true,
         jwksRequestsPerMinute: 5,
-        jwksUri: 'https://dev-9ski8908.us.auth0.com/.well-known/jwks.json'
+        jwksUri: `https://${process.env.AUTH0_DOMAIN}/.well-known/jwks.json`
   }),
-  audience: 'https://contacts.azeem.com/',
-  issuer: 'https://dev-9ski8908.us.auth0.com/',
+  audience: process.env.AUTH0_AUDIENCE,
+  issuer: `https://${process.env.AUTH0_DOMAIN}/`,
   algorithms: ['RS256']
 });
